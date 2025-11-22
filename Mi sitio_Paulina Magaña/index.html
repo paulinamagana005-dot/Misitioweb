@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi sitio web</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <h1>INFINITY GAME CAFE ☕</h1>
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav>
+    <a href="#inicio">Inicio</a> |
+    <a href="#servicios">Servicios</a> |
+    <a href="#Novedades">Novedades</a> |
+        <a href="#contacto">Contacto</a>
+
+  </nav>
+
+  <!-- Sección de inicio -->
+  <section id="inicio">
+    <h2>¡Bienvenido jugador!</h2>
+    <p>Esta es la página web de tu cafetería favorita 🎮</p>
+  </section>
+
+  <!-- Sección de servicios -->
+  <section id="servicios">
+    <h2>Servicios</h2>
+     <p>En nuestra cafetería gamer te ofrecemos experiencias únicas para jugadores y amantes del café:</p>
+
+  <ul class="lista-servicios">
+    <li>
+      🎮 <strong>Zona Gaming:</strong> Consolas de última generación, PCs de alto rendimiento y conexión de alta velocidad para que juegues solo o con amigos.
+      <br>
+      <img src="imagenes/consolas.png" alt="Zona Gaming" width="200">
+    </li>
+
+    <li>
+      ☕ <strong>Bebidas temáticas:</strong> Cafés, frappés y smoothies inspirados en tus videojuegos favoritos.
+      <br>
+      <img src="imagenes/café.png" alt="Bebidas temáticas" width="200">
+    </li>
+
+    <li>
+      🍰 <strong>Snacks y postres:</strong> Repostería artesanal con diseños gamer y opciones veganas o sin gluten.
+      <br>
+      <img src="imagenes/pizza.png" alt="Snacks y postres" width="200">
+    </li>
+
+    <li>
+      🏆 <strong>Torneos y eventos:</strong> Competencias semanales de eSports y noches de trivia para toda la comunidad.
+      <br>
+      <img src="imagenes/torneos.png" alt="Torneos y eventos" width="200">
+    </li>
+
+    <li>
+      🛍️ <strong>Tienda geek:</strong> Playeras, tazas y accesorios coleccionables exclusivos.
+      <br>
+      <img src="imagenes/merch.png" alt="Tienda geek" width="200">
+    </li>
+  </ul>
+ <!-- Botón extra -->
+    <br>
+    <button>Hacer pedido a domicilio</button>
+  <!-- Sección de Novedades -->
+  <section id="Novedades">
+    <h2>Novedades</h2>
+    <p>¡Novedades sobre nuestros proximos eventos, lanzamientos de videojuegos en nuestra tienda y más!</p>
+
+
+  <!-- 3. Tabla -->
+    <h2>📅 Fechas de torneos</h2>
+    <table border="1">
+        <tr>
+            <th>Día</th>
+            <th>Juego</th>
+        </tr>
+        <tr>
+            <td>Lunes 21 de octubre</td>
+            <td>Rocket League</td>
+        </tr>
+        <tr>
+            <td>Martes 22 de octubre</td>
+            <td>Fornite</td>
+        </tr>
+        <tr>
+            <td>Miércoles 23 de octubre</td>
+            <td>Warzone</td>
+        </tr>
+    </table>
+
+  <!-- 1. Video -->
+    <h2>🎥 ¡Ya disponible estos juegos en nuestra tienda!</h2>
+    
+        <img src="imagenes/portada game.jpg" alt="Life Is Strange: True Colors" width="197"> 
+              <img src="imagenes/Resident evil 7.jpg" alt="Life Is Strange: True Colors" width="200">
+              <img src="imagenes/Tomb Raider.jpg" alt="Life Is Strange: True Colors" width="200">
+                            <img src="imagenes/Resident_Evil_4.jpg" alt="Life Is Strange: True Colors" width="190">
+                            <img src="imagenes/borderlands-4.jpg" alt="Life Is Strange: True Colors" width="213">
+                            <img src="imagenes/Battlefront2.webp" alt="Life Is Strange: True Colors" width="208">
+                            <img src="imagenes/HogwartsLegacy.jpg" alt="Life Is Strange: True Colors" width="211">
+                            <img src="imagenes/dead-by-daylight.jpg" alt="Life Is Strange: True Colors" width="211">
+
+                             <p>Life Is Strange: True Colors - Trailer</p>
+                            <video controls width="450">
+<source src="Video/videoLIS.mp4" type="video/mp4">
+Tu navegador no soporta el elemento de video.
+</video>
+    <!-- 2. Audio -->
+    <h2>🎵 Soundtrack - "Home"</h2>
+    <audio controls>
+        <source src="Audio/AudioLIS.mp3" type="audio/mp3">
+        Tu navegador no soporta el audio.
+    </audio>
+</section>
+
+  <!-- Sección de contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+
+    <!-- Formulario de contacto -->
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre"><br><br>
+
+      <label for="correo">Correo:</label>
+      <input type="email" id="correo" name="correo"><br><br>
+
+        <label for="Mensaje">Mensaje:</label>
+      <input type="text" id="Mensaje" name="Mensaje"><br><br>
+
+      <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Nuestra ubicacion 📍</h2>
+    <!-- Mapa de Google -->
+    <br>
+    <iframe
+     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.335822625768!2d-92.94760462409187!3d17.98731578444043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85edfcffb5a1f8c1%3A0x5c8c48c3de6d3b68!2sAv.%20Paseo%20Tabasco%201998%2C%20Multiochenta%2C%2086035%20Villahermosa%2C%20Tab.%2C%20México!5e0!3m2!1ses!2smx!4v1739130000000!5m2!1ses!2smx" 
+  width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    
+    <!-- Preguntas frecuentes -->
+    <h3>Preguntas frecuentes</h3>
+
+    <details>
+      <summary>¿Cuál es tu horario?</summary>
+      <p>Lunes a viernes de 9am a 6pm.</p>
+    </details>
+
+    <details>
+      <summary>¿Tienen servicio a domicilio?</summary>
+      <p>Sí, con un costo adicional de $30.</p>
+    </details>
+
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© INFINITY GAME CAFE</p>
+  </footer>
+
+</body>
+</html>
